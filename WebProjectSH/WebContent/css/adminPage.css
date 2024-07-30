@@ -1,0 +1,70 @@
+@charset "UTF-8";
+	* {
+	    margin: 0;
+	    padding: 0;
+	    box-sizing: border-box;
+	}
+	
+	body, html {
+	    height: 100%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    font-family: Arial, sans-serif;
+	}
+	
+	.container {
+	    width: 800px;
+	    background-color: #f9f9f9;
+	    padding: 20px;
+	    border-radius: 5px;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.login-button {
+	    text-align: right;
+	}
+	
+	.login-button button {
+	    padding: 5px 10px;
+	    margin-bottom: 20px;
+	}
+	
+	.content {
+	    text-align: center;
+	}
+	
+	.content h2 {
+	    margin-bottom: 20px;
+	}
+	
+	table {
+	    width: 100%;
+	    border-collapse: collapse;
+	    margin-bottom: 20px;
+	}
+	
+	table, th, td {
+	    border: 1px solid #ccc;
+	}
+	
+	th, td {
+	    padding: 10px;
+	    text-align: center;
+	}
+	
+	button {
+	    padding: 5px 10px;
+	    cursor: pointer;
+	    border: 1px solid #ccc;
+	    background-color: #f0f0f0;
+	}
+	
+	button:hover {
+	    background-color: #e0e0e0;
+	}
+	
+	.scheduler-buttons {
+	    display: flex;
+	    justify-content: space-around;
+	}
